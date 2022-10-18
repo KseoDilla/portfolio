@@ -1,0 +1,67 @@
+.center-screen1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  float: right;
+  width: 100%;
+  min-height: 50vh;
+}
+
+@keyframes animate-across-screen1
+{
+    0% {
+        transform: translate(-2000%, -110%);
+    };
+    100% {
+        transform: translate(65%, -110%);
+    }
+}
+
+
+.animating-greeting-1 {
+    font-size: 60px;
+    font-family: $fontFamily;
+    animation-name: animate-across-screen1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animate-across-screen2
+{
+    0% {
+        transform: translate(-2000%, -110%);
+    };
+    100% {
+        transform: translate(65%, -110%);
+    }
+}
+
+.animating-greeting-2 {
+    font-size: 60px;
+    font-family: $fontFamily;
+    animation-name: animate-across-screen2;
+    animation-timing-function: ease-out;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animate-across-screen3
+{
+    0% {
+        transform: translate(-2000%, -10%);
+    };
+    100% {
+        transform: translate(65%, -10%);
+    }
+}
+
+.animating-greeting-3 {
+    font-size: 60px;
+    font-family: $fontFamily;
+    animation-name: animate-across-screen3;
+    animation-timing-function: ease-out;
+    animation-duration: 1.0s;
+    animation-iteration-count: 1;
+}
