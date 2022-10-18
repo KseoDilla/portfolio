@@ -1,0 +1,71 @@
+:root {
+    --dark:rgba(4,0,15,0.99);
+}
+
+@font-face
+{
+    font-family: "Brandon Grotesque";
+    color: white;
+    src: local("Brandon Grotesque"), url("./fonts/brandon-grotesque-black.otf");
+}
+
+body {
+    background-color: var(--dark);
+    color: white;
+    font-family: "Brandon Grotesque";
+    margin:0;
+}
+header { min-height:50px; }
+footer { min-height:50px; }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+article { flex-grow:1; }
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scale(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform:scale(1);
+    transform-origin: bottom left;
+}
+
+.ul_r {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: var(--dark);
+    text-align: right;
+}
+
+.nostyle {
+  display: block;
+  color: white;
+  padding: 0px 16px;
+  text-decoration: none;
+}

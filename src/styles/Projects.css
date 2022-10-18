@@ -1,0 +1,19 @@
+.parent {
+  padding: 1rem 2rem;
+}
+
+.child {
+  display: inline-block;
+  padding: 2rem 2rem;
+  vertical-align: top;
+}
+
+.center-screen {
+  display: inline-table;
+  float: right;
+  justify-content: right;
+  align-items: right;
+  min-height: 100vh;
+}
+
+
