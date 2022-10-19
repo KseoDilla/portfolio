@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.26a4d2db.css",
-    "main.js": "./static/js/main.1c328b71.js",
+    "main.css": "./static/css/main.3f8901fe.css",
+    "main.js": "./static/js/main.aeab3c0a.js",
     "static/media/RaveAboutItChamp.png": "./static/media/RaveAboutItChamp.f504fcc25656eba69d4f.png",
     "static/media/profile.jpg": "./static/media/profile.f84e9dade123a198c955.jpg",
     "static/media/brandon-grotesque-black.otf": "./static/media/brandon-grotesque-black.9ad36c335e917b52911d.otf",
     "index.html": "./index.html",
-    "main.26a4d2db.css.map": "./static/css/main.26a4d2db.css.map",
-    "main.1c328b71.js.map": "./static/js/main.1c328b71.js.map"
+    "main.3f8901fe.css.map": "./static/css/main.3f8901fe.css.map",
+    "main.aeab3c0a.js.map": "./static/js/main.aeab3c0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.26a4d2db.css",
-    "static/js/main.1c328b71.js"
+    "static/css/main.3f8901fe.css",
+    "static/js/main.aeab3c0a.js"
   ]
 }
