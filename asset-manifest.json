@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.3f8901fe.css",
-    "main.js": "./static/js/main.a232326a.js",
+    "main.js": "./static/js/main.a25370ca.js",
     "static/media/RaveAboutItChamp.png": "./static/media/RaveAboutItChamp.f504fcc25656eba69d4f.png",
     "static/media/profile.jpg": "./static/media/profile.f84e9dade123a198c955.jpg",
     "static/media/brandon-grotesque-black.otf": "./static/media/brandon-grotesque-black.9ad36c335e917b52911d.otf",
     "index.html": "./index.html",
     "main.3f8901fe.css.map": "./static/css/main.3f8901fe.css.map",
-    "main.a232326a.js.map": "./static/js/main.a232326a.js.map"
+    "main.a25370ca.js.map": "./static/js/main.a25370ca.js.map"
   },
   "entrypoints": [
     "static/css/main.3f8901fe.css",
-    "static/js/main.a232326a.js"
+    "static/js/main.a25370ca.js"
   ]
 }
